@@ -1,4 +1,3 @@
-[Back](https://olsenbt.github.io)
 # Bennett Olsen
 
 olsenbt@uw.edu
