@@ -2,8 +2,7 @@
 
 olsenbt@uw.edu
 
-http://www.linkedin.com/in/olsenbt
-
+[LinkedIn](http://www.linkedin.com/in/olsenbt)
 # Summary
 
 Quick Summary (not objective) specifically highlighting why you qualify for the job.
