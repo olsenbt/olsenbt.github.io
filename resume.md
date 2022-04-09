@@ -8,32 +8,32 @@ http://www.linkedin.com/in/olsenbt
 
 Quick Summary (not objective) specifically highlighting why you qualify for the job.
 
-# Work Experience (only last 10 years)
+# Education
+## University of Washington (Seattle, WA)
+Junior          September 2019 - Present
+B.A. in Geography: Data Science - Expected 2023
+Dean’s List, University of Washington – Autumn 2019, Autumn 2020, Winter 2021, Spring 2021, Autumn 2021, Winter 2022
 
-## University Name 1 (City, State)
+## Notable Coursework:
+ Data Structures and Algorithms (Java), Web Programming (HTML/CSS/Javascript/SQLite), Statistics for the Social Sciences (R), Calculus with Analytic Geometry I-III, Information Foundations, GIS and Mapping
 
-* [University 1][] description, particularly if not well-known.*
+# Skills
+### Coding: Java, HTML, Javascript, CSS, C#, R
+### Technologies/Environments: Mac, Unity, SQLite
 
-** Position Title (include alternate titles in parentheses)** (Start Date - End Date)
+## 
+# Work Experience
 
-Summary of your role
 
-- Accomplishment that contains **bold text**.
-- Accomplishment
-- Accomplishment
-- Accomplishment
+## Varsity Tutors (Remote)
+*A remote tutoring platform for all students and professionals*
 
-## University Name 2 (City, State)
-*[University 2][] description, particularly if not well-known.*
+**Tutor** (June 2021 - Present)
 
-** Position Title (include alternate titles in parentheses)** (Start Date - End Date)
+Teaching elementary school students foundational skills in Computer Science.
 
-Summary of your role
-
-- Accomplishment that contains **bold text**.
-- Accomplishment
-- Accomplishment
-- Accomplishment
+- Taught computer science courses to groups of elementary school students
+- Leads one on one tutoring sessions with students
 
 ## University Name 3 (City, State)
 * [University 3][] description, particularly if not well-known.*
