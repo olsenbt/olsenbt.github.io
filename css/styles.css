@@ -7,14 +7,6 @@ body {
   padding: 0;
 }
 
-/* Header Styles */
-header {
-  text-align: center;
-  padding: 20px;
-  background-color: #eae6df;
-  border-bottom: 2px solid #d3cdc4;
-}
-
 header h1 {
   margin: 0;
   font-size: 2.5em;
@@ -59,11 +51,18 @@ nav a:hover {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Styles */
-footer {
+/* Header and Footer */
+header, footer {
+  padding: 20px;
   text-align: center;
-  padding: 10px;
-  background-color: #eae6df;
-  border-top: 2px solid #d3cdc4;
-  font-size: 0.9em;
+}
+
+.container {
+  max-width: 800px; /* Limit width for readability */
+  margin: 0 auto;   /* Center content horizontally */
+  padding: 0 20px;  /* Add space on the left and right */
+}
+
+section {
+  margin: 40px 0; /* Space between sections */
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,42 +11,138 @@
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
     <header>
         <h1>Bennett Olsen</h1>
         <nav>
             <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
+            <a href="#interests">Interests</a>
         </nav>
     </header>
 
     <!-- Wireframe City Animation -->
-   <div id="city-skyline"></div>
+    <div id="city-skyline"></div>
 
-
-    <section id="about">
+    <!-- About Section -->
+    <section id="about" class="container">
         <h2>About Me</h2>
         <img src="assets/img/profile.png" alt="Bennett Profile Photo" class="profile-photo">
-        <p>Welcome to my personal website! I'm Bennett Olsen, a data scientist and creative thinker with a passion for geography, data, and technology.</p>
+        <p>
+            Bennett Olsen | GIS Analyst | Software Engineer | Video Game Developer
+        </p>
+        <p>
+            Seattle, WA | <a href="mailto:olsenbt@uw.edu">olsenbt@uw.edu</a>
+        </p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/bennett-olsen-047599214/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/olsenbt" target="_blank">GitHub</a>
+        </div>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of the projects I've worked on:</p>
+
+    <!-- Experience Section -->
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <div>
+            <h3>IT Audit Intern - Data Analysis</h3>
+            <p><strong>Washington State Auditor's Office</strong> | June 2021 - June 2022</p>
+            <p>
+                Worked with numerous entities to gather large sets of financial data. Cleaned and prepared data for
+                Auditor analysis. Built databases and database tables in SQL Server Management Studio (SSMS) to store data.
+                Created stored procedures to filter current and future financial data.
+            </p>
+        </div>
+        <div>
+            <h3>Tutor</h3>
+            <p><strong>Varsity Tutors</strong> | June 2021 - Present</p>
+            <p>
+                Teaching elementary school students foundational skills in Computer Science. Leads one-on-one tutoring sessions
+                with students, tailoring lessons to fit the student's academic needs.
+            </p>
+        </div>
+        <div>
+            <h3>Cello Instructor</h3>
+            <p><strong>Self Employed</strong> | June 2018 - Present</p>
+            <p>
+                Teaching students proper form and technique for effective cello playing. Has experience teaching students at various
+                grade levels from 3rd - 8th grade. Manages communications and scheduling with clients.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <div>
+            <h3>University of Washington</h3>
+            <p><strong>Geography - Data Science</strong> | September 2019 - June 2023</p>
+            <p>GPA: 3.8</p>
+            <p>Awards: Dean's List 2019-2023</p>
+            <p>Principal Cellist in the University of Washington Symphony Orchestra</p>
+            <p>Notable Coursework: Data Structures and Algorithms (Java), Web Programming (HTML/CSS/JavaScript/SQLite), Statistics for the Social Sciences (R), Calculus with Analytic Geometry I-III, Information Foundations, GIS and Mapping</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
         <ul>
-            <li><strong>Project 1:</strong> Description and <a href="#">link</a>.</li>
-            <li><strong>Project 2:</strong> Description and <a href="#">link</a>.</li>
+            <li>Unity, C#, Java</li>
+            <li>Microsoft SQL Server, SQL, SQLite, Postgres</li>
+            <li>pgadmin4, QGIS, ArcGIS</li>
+            <li>Python, R, Machine Learning</li>
+            <li>HTML, CSS, JavaScript</li>
         </ul>
     </section>
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>Download my resume <a href="your-resume-link.pdf" target="_blank">here</a>.</p>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <h3>Maps</h3>
+        <div>
+            <h4>Air Quality Map</h4>
+            <p>This project examines the cause and effect of air quality and CO2 emissions in the United States.</p>
+            <a href="https://olsenbt.github.io/air-quality-map/index.html" target="_blank">View Project</a>
+        </div>
+        <div>
+            <h4>Covid Map</h4>
+            <p>This project examines the cause and effect of air quality and CO2 emissions in the United States.</p>
+            <a href="https://github.com/olsenbt/covid-map" target="_blank">View Project</a>
+        </div>
+        <div>
+            <h4>Geotagged Tweets</h4>
+            <p>This project looks at geotagged tweets from two different times of day across the United States.</p>
+            <a href="https://github.com/olsenbt/geotagged-tweets" target="_blank">View Project</a>
+        </div>
+        <h3>Games</h3>
+        <div>
+            <h4>Rising Tides</h4>
+            <p>DEMO of a 2D point and click game</p>
+            <a href="https://olsenbt.itch.io/rising-tides" target="_blank">Play Game</a>
+        </div>
+        <div>
+            <h4>Brick Breaker</h4>
+            <p>Recreation of the classic game "Breakout"</p>
+            <a href="https://play.unity.com/mg/other/brick-breaker-12" target="_blank">Play Game</a>
+        </div>
+        <div>
+            <h4>Forest Frenzy</h4>
+            <p>Endless runner that utilizes object pooling for increased runtime efficiency</p>
+            <a href="https://play.unity.com/mg/other/webgl-builds-157885" target="_blank">Play Game</a>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me via <a href="mailto:your-email@example.com">email</a>.</p>
+
+    <!-- Interests Section -->
+    <section id="interests" class="container">
+        <h2>Interests</h2>
+        <p>In my free time I enjoy playing music, I have been playing the cello for 13 years. I enjoy learning new things such as new art mediums. One of my most recent endeavors has been learning how to make woodburnings.</p>
+        <p>Some of my other interests include playing soccer and studying video game design.</p>
     </section>
+    
     <footer>
         &copy; 2025 Bennett Olsen. All rights reserved.
     </footer>
@@ -53,4 +150,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
